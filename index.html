@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Eduardo Timm">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta names="keywords" content="STC Codes, FrontEnd, developer, web, JavaSript, CSS, HTML, Eduardo,">
+	<meta name="description" content="Estudante de ADS">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" href="https://cdn.lineicons.com/2.0/LineIcons.css">
+	<title>STC Codes</title>
+</head>
+<body>
+
+	<!-- ---------------------HEADER---------------------------------------------------------------------------- -->
+	<header>
+		<nav>
+			<a class="logo_nav nav_ul_li_a" id="logo" href="">STC Codes</a>
+			<div class="nav_menu_bars">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+			<ul class="nav_ul">
+				<li><a class="nav_ul_li_a" href="#logo">Inicio</a></li>
+				<li><a class="nav_ul_li_a" href="#sobre">Sobre</a></li>
+				<li><a class="nav_ul_li_a" href="#skills">Skills</a></li>
+				<li><a class="nav_ul_li_a" href="#projetos">Projetos</a></li>
+				<li><a class="nav_ul_li_a" href="#Contato">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- ------------------MAIN------------------------------------------------------------------------------------------- -->
+	<main>
+		<!--Primera parte de la página -->
+			<div class="description">
+				<div class="main_photo">
+					<img src="./IMG/eu.jpg" alt="A picture of STC Codes">
+				</div>
+				<div class="description_text">
+					<p class="greeting">Bem vindo(a) sou</p>
+					<h1><span>Eduardo</span> Timm</h1>
+					<p class="smalldescription">Estudante de <span>Análise e desenvolvimento de sistemas</span></p>
+					<div class="socialmedia">
+						<ul class="sociallist">
+						<a class="resumelink" href="#about" target="_BLANK">Resumo</a>
+						<li><a href="https://www.linkedin.com/in/eduardo-timm2001/" target="_BLANK"><i class="lni lni-linkedin-original"></i></a></li>
+						<li><a href="https://github.com/EduSTimm"><i class="lni lni-github-original"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		<!--Segunda Parte da página-->
+		<section>
+			<div class="about">
+				<h2 class="titulo-about" id="about">Sobre mim</h2>
+				<p class="information">
+					Tenho 22 anos, comecei minha faculdade em 2023, ainda não possuo experiência profissional.
+                    Tenho muita vontade de trabalhar e aprender cada vez mais sobre esse mundo da programação.
+					E procuro uma oportunidade onde eu possa mostrar meu conhecimento.
+					
+				<br><br>
+                    Estudo cada dia mais sobre JavaScript e outras tecnologias. Quero me tornar um excelente desenvolvedor web.
+				<br><br>
+					Possuo um conhecimento sobre montagem de computadores, já fiz diversas montagens.
+                    Em 2023 fiz um trabalho voluntário em uma associação, onde fiz formatação, limpeza e instalação de diversos computadores da instituição.
+				<br><br>
+					Na faculdade aprendi sobre Redes e segurança da informação, fundamentos de programação mobile,
+                    Gestão de TI, Algorítimos e Programação e Banco de dados.
+				</p>
+			</div>
+		</section>
+		<!--Terceira parte da pagina Skills-->
+		<section>
+			<div class="skills">
+				<h2 class="titulo-skills" id="skills">Skills</h2>
+				<ul class="grid_container">
+					<li class="grid_items"><img src="./IMG/html.png"><p>HTML</p></li>
+					<li class="grid_items"><img src="./IMG/css.png"><p>CSS</p></li>
+					<li class="grid_items"><img src="./IMG/js.png"><p>JavaSript</p></li>
+					<li class="grid_items"><img src="./IMG/windows.png"><p>Windows</p></li>
+					<li class="grid_items"><img src="./IMG/github.png"><p>Github</p></li>
+
+				</ul>
+			</div>
+		</section>
+		<!-- ----WORKS------------------------------------------------------- -->
+		<section>
+			<div class="works" id="projects">
+				<h2 class="titulo-works">Projetos</h2>
+				<div class="grid_container_works">
+					<div class="grid_items_div">
+						<a href="https://github.com/EduSTimm/Blog"><img class="grid_items_works" src="" alt="Portifólio/Blog"></a>
+						<h3>Portifólio/Blog</h3>
+					</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ---------------CONTATO------------------------------------------------------------------------------------------ -->
+		<section class="contact">
+			<h2 class="titulo-contact" id="contact">Contato</h2>
+			<div class="contact-details">
+				<div class="contact-details-email">
+					<img src="./IMG/email.png">
+					<a href="mailto:eduardo-timm@hotmail.com">eduardo-timm@hotmail.com</a>
+					<p>Meu email</p>
+				</div>
+				<h3 class="titulo-contact_form">Entre em contato</h3>
+				<form class="form_contact">
+					<input type="text" class="name" required placeholder="Nome *">
+					<input type="email" class="email" required placeholder="Email *">
+					<input type="text" class="subject" required placeholder="Asssunto *">
+					<textarea required placeholder="Sua Mensagem *"></textarea>
+					<input class="submit" type="submit" value="Enviar">
+				</form>
+			</div>
+		</section>
+	</main>
+	<!-- ---------------FOOTER---------------------------------------------------------------------------------------------------- -->
+	<footer>
+			<p class="copyright">© 2023 - STC Codes (Eduardo Timm)</p>
+	</footer>
+	<script src="navResponsive.js"></script>
+</body>
+</html>
